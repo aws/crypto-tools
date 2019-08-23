@@ -16,7 +16,7 @@ The AWS Encryption SDK is a client-side encryption library designed to make it e
 
 ## AWS Encryption CLI
 The AWS Encryption CLI command line tool can be used to encrypt and decrypt files and directories using the AWS Encryption SDK.
-- [AWS Encryption SDK](https://github.com/aws/aws-encryption-sdk-cli)
+- [AWS Encryption CLI](https://github.com/aws/aws-encryption-sdk-cli)
 
 # Getting Help
 Having issues with one of our tools? We're sorry to hear that! Please open an issue in the relevant repository, and we'll help out. 
