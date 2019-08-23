@@ -25,4 +25,4 @@ Having issues with one of our tools? We're sorry to hear that! Please open an is
 We welcome issues and PRs on any of our repositories.
 
 # Jobs
-Interested in helping us making the world more secure? We're hiring! 
+Interested in helping us making the world more secure? [We're hiring](https://www.amazon.jobs/en/search?offset=0&result_limit=10&sort=relevant&cities[]=Seattle%2C%20Washington%2C%20USA&business_category[]=amazon-web-services&distanceType=Mi&radius=24km&latitude=&longitude=&loc_group_id=&loc_query=&base_query=crypto%20tools&city=&country=&region=&county=&query_options=&)! 
