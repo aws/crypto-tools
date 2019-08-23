@@ -5,7 +5,6 @@ We make open source cryptographic libraries that are easy to use, and hard to mi
 ## AWS Encryption SDK
 The AWS Encryption SDK is a client-side encryption library designed to make it easy for to encrypt and decrypt data using industry standards and best practices. It enables you to focus on the core functionality of your application, rather than on how to best encrypt and decrypt your data. 
 
-The AWS Encryption SDK is currently available in the following languages:
 - [C](https://github.com/aws/aws-encryption-sdk-c)
 - [Java](https://github.com/aws/aws-encryption-sdk-java)
 - [Python](https://github.com/aws/aws-encryption-sdk-python/)
