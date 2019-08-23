@@ -24,3 +24,6 @@ Having issues with one of our tools? We're sorry to hear that! Please open an is
 
 # Contributing
 We welcome issues and PRs on any of our repositories.
+
+# Jobs
+Interested in helping us making the world more secure? We're hiring! 
