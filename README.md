@@ -22,7 +22,7 @@ The AWS Encryption CLI command line tool can be used to encrypt and decrypt file
 - [Java](https://github.com/aws/aws-dynamodb-encryption-java)
 - [Python](https://github.com/aws/aws-dynamodb-encryption-python)
 
-## Amazon Correto Crypto Provider (ACCP)
+## Amazon Corretto Crypto Provider (ACCP)
 - [ACCP](https://github.com/corretto/amazon-corretto-crypto-provider)
 
 ## Other products
