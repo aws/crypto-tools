@@ -49,4 +49,4 @@ Please do **not** create a public github issue.
 We welcome issues and PRs on any of our repositories.
 
 # Jobs
-Interested in helping us making the world more secure? [We're hiring](https://www.amazon.jobs/en/search?cities[]=Seattle%2C%20Washington%2C%20USA&business_category[]=amazon-web-services&base_query=crypto%20tools)! 
+Interested in making the world more secure? [We're hiring](https://www.amazon.jobs/en/search?cities[]=Seattle%2C%20Washington%2C%20USA&business_category[]=amazon-web-services&base_query=crypto%20tools)! 
