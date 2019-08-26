@@ -21,6 +21,11 @@ The AWS Encryption CLI command line tool can be used to encrypt and decrypt file
 # Getting Help
 Having issues with one of our tools? We're sorry to hear that! Please open an issue in the relevant repository, and we'll help out. 
 
+# Security issue notifications
+
+If you discover a potential security issue in this project we ask that you notify AWS/Amazon Security
+via our [vulnerability reporting page](https://aws.amazon.com/security/vulnerability-reporting/).
+Please do **not** create a public github issue.
 # Contributing
 We welcome issues and PRs on any of our repositories.
 
