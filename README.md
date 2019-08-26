@@ -32,7 +32,10 @@ The AWS Encryption CLI command line tool can be used to encrypt and decrypt file
 ## Experimental
  - PKCS11 runners for Project Wycheproof https://github.com/awslabs/pkcs11-runners-for-project-wycheproof
  - Pipeformer https://github.com/awslabs/pipeformer
-   
+
+# Documentation 
+- [AWS Crypto Tools Documentation](https://docs.aws.amazon.com/aws-crypto-tools/?id=docs_gateway)
+
 # Getting Help
 Having issues with one of our tools? Please open an issue in the relevant repository, and we'll help out. 
 
