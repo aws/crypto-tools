@@ -26,7 +26,7 @@ The AWS Encryption CLI command line tool can be used to encrypt and decrypt file
 - [ACCP](https://github.com/corretto/amazon-corretto-crypto-provider)
 
 ## Other products
- - Base64IO https://github.com/aws/base64io-python
+ - [Base64IO](https://github.com/aws/base64io-python)
  - [AWS SDK for JS v3 Crypto Helpers](https://github.com/aws/aws-sdk-js-crypto-helpers)
  
 ## Experimental
