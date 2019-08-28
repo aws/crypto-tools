@@ -27,7 +27,7 @@ The AWS Encryption CLI command line tool can be used to encrypt and decrypt file
 
 ## Other products
  - Base64IO https://github.com/aws/base64io-python
- - AWS SDK for JS v3 Crypto Helpers https://github.com/aws/aws-sdk-js-crypto-helpers
+ - [AWS SDK for JS v3 Crypto Helpers](https://github.com/aws/aws-sdk-js-crypto-helpers)
  
 ## Experimental
  - PKCS11 runners for Project Wycheproof https://github.com/awslabs/pkcs11-runners-for-project-wycheproof
