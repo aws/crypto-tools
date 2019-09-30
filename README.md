@@ -15,6 +15,8 @@ rather than on how to best encrypt and decrypt your data.
 - Product Documentation
     [[source]](https://github.com/awsdocs/aws-encryption-sdk-docs)
     [[hosted]](https://docs.aws.amazon.com/encryption-sdk/latest/developer-guide/introduction.html)
+- Specification
+    [[source]](https://github.com/awslabs/aws-encryption-sdk-specification)
 - C
     [[source]](https://github.com/aws/aws-encryption-sdk-c)
     [[API docs]](https://aws.github.io/aws-encryption-sdk-c/html)
