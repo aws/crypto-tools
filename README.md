@@ -12,7 +12,7 @@ designed to make it easy for you to encrypt and decrypt data using industry stan
 It enables you to focus on the core functionality of your application,
 rather than on how to best encrypt and decrypt your data.
 
-- Product Documentation
+- Developer Guide
     [[source]](https://github.com/awsdocs/aws-encryption-sdk-docs)
     [[hosted]](https://docs.aws.amazon.com/encryption-sdk/latest/developer-guide/introduction.html)
 - Specification
@@ -39,7 +39,7 @@ You can use the AWS Encryption CLI to encrypt and decrypt files and directories 
 The Amazon DynamoDB Encryption Client is a software library
 that helps you to protect your table data before you send it to Amazon DynamoDB.
 
-- Product Documentation
+- Developer Guide
     [[source]](https://github.com/awsdocs/aws-dynamodb-encryption-docs)
     [[hosted]](https://docs.aws.amazon.com/dynamodb-encryption-client/latest/devguide/what-is-ddb-encrypt.html)
 - Java
