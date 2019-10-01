@@ -24,7 +24,7 @@ rather than on how to best encrypt and decrypt your data.
     [[source]](https://github.com/aws/aws-encryption-sdk-java)
     [[API docs]](https://aws.github.io/aws-encryption-sdk-java/javadoc)
 - Javascript
-    [[source]](https://github.com/awslabs/aws-encryption-sdk-javascript)
+    [[source]](https://github.com/aws/aws-encryption-sdk-javascript)
 - Python
     [[source]](https://github.com/aws/aws-encryption-sdk-python)
     [[API docs]](https://aws-encryption-sdk-python.readthedocs.io)
