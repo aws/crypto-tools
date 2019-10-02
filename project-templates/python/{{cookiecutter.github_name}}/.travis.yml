@@ -1,0 +1,47 @@
+sudo: true
+dist: xenial
+
+language: python
+
+cache:
+  directories:
+    - $HOME/.cache/pip
+
+matrix:
+  include:
+    {%- if cookiecutter.support_legacy_python == "yes" %}
+    # CPython 2.7
+    {%- for type in ["local", "integ", "examples"] %}
+    - python: 2.7
+      env: TOXENV=py27-{{type}}
+      stage: Client Tests
+      {%- endfor %}
+    {%- endif %}
+    {%- for version in cookiecutter.supported_modern_python_versions.split() %}
+    # CPython {{version}}
+      {%- for type in ["local", "integ", "examples"] %}
+    - python: {{version}}
+      env: TOXENV=py{{version.replace(".", "")}}-{{type}}
+      stage: Client Tests
+      {%- endfor %}
+    {%- endfor %}
+    # Security
+    - python: {{cookiecutter.default_python}}
+      env: TOXENV=bandit
+      stage: Static Checks
+    # Linting
+    - python: {{cookiecutter.default_python}}
+      env: TOXENV=lint
+      stage: Static Checks
+    # MyPy
+    {%- if cookiecutter.support_legacy_python == "yes" %}
+    - python: 2.7
+      env: TOXENV=mypy-py2
+      stage: Static Checks
+    {%- endif %}
+    - python: {{cookiecutter.default_python}}
+      env: TOXENV=mypy-py3
+      stage: Static Checks
+
+install: pip install tox
+script: tox -- -vv
