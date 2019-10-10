@@ -1,0 +1,17 @@
+include README.rst
+include CHANGELOG.rst
+include CONTRIBUTING.rst
+include CODE_OF_CONDUCT.rst
+include LICENSE
+include requirements.txt
+
+recursive-include doc *
+recursive-exclude doc .DS_Store *.pyc
+prune doc/build
+prune doc/lib/generated
+
+recursive-include test *
+recursive-exclude test .DS_Store *.pyc
+
+recursive-include examples *
+recursive-exclude examples .DS_Store *.pyc
