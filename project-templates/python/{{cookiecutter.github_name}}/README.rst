@@ -60,7 +60,7 @@ Prerequisites
 
   * Python 3.6+
   * `tox`_ : We use tox to drive all of our testing and package management behavior.
-     Any tests that you want to run should be run using tox.
+    Any tests that you want to run should be run using tox.
 
 * Optional
 
