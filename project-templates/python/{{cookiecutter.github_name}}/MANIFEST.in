@@ -1,9 +1,14 @@
-include README.rst
-include CHANGELOG.rst
-include CONTRIBUTING.rst
-include CODE_OF_CONDUCT.rst
+include *.rst
 include LICENSE
+include NOTICE
 include requirements.txt
+include tox.ini
+include src/pylintrc
+
+# ignore CI configs
+exclude *.yml
+# ignore PyPI Parker config
+exclude park.cfg
 
 recursive-include doc *
 recursive-exclude doc .DS_Store *.pyc
