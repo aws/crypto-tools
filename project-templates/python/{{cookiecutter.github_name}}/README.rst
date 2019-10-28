@@ -34,11 +34,10 @@ Required Prerequisites
 ======================
 
 * Suported Python versions
-
-{%- if cookiecutter.support_legacy_python == "yes" %}
+{% if cookiecutter.support_legacy_python == "yes" %}
   * 2.7
-{%- endif %}
-{%- for version in cookiecutter.supported_modern_python_versions.split() %}
+{%- endif -%}
+{% for version in cookiecutter.supported_modern_python_versions.split() %}
   * {{version}}
 {%- endfor %}
 
