@@ -8,7 +8,7 @@
     "pypi_name": "{{ cookiecutter.github_name}}",
     "support_legacy_python": ["no", "yes"],
     "default_python": "3.7",
-    "supported_modern_python_versions": "3.4 3.5 3.6 3.7",
+    "supported_modern_python_versions": "3.4 3.5 3.6 3.7 3.8",
     "author": "Amazon Web Services",
     "author_email": "aws-cryptools@amazon.com",
     "pypi_keywords": "{{cookiecutter.pypi_name}} {{cookiecutter.module_name}} aws",
