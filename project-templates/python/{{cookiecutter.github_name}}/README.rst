@@ -34,11 +34,10 @@ Required Prerequisites
 ======================
 
 * Suported Python versions
-
-{%- if cookiecutter.support_legacy_python == "yes" %}
+{% if cookiecutter.support_legacy_python == "yes" %}
   * 2.7
-{%- endif %}
-{%- for version in cookiecutter.supported_modern_python_versions.split() %}
+{%- endif -%}
+{% for version in cookiecutter.supported_modern_python_versions.split() %}
   * {{version}}
 {%- endfor %}
 
@@ -60,7 +59,7 @@ Prerequisites
 
   * Python 3.6+
   * `tox`_ : We use tox to drive all of our testing and package management behavior.
-     Any tests that you want to run should be run using tox.
+    Any tests that you want to run should be run using tox.
 
 * Optional
 
