@@ -7,8 +7,6 @@ NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and
 "OPTIONAL" in this document are to be interpreted as described in
 [RFC 2119](https://tools.ietf.org/html/rfc2119).
 
-
-
 ## What this document is
 
 The purpose of this document is to define our tenets and goals
@@ -84,5 +82,5 @@ our automation MUST automatically halt and request human intervention.
 ### Human Intervention
 
 Anyone with write access to a repository MUST be able to stop any automation
-if they think something has gone wrong or will go wrong
-or if they think that a situation is sufficiently ambiguous.
+if they think something has gone wrong, will go wrong,
+or that a situation is sufficiently ambiguous.
