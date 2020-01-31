@@ -7,6 +7,8 @@ NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and
 "OPTIONAL" in this document are to be interpreted as described in
 [RFC 2119](https://tools.ietf.org/html/rfc2119).
 
+
+
 ## What this document is
 
 The purpose of this document is to define our tenets and goals
@@ -67,16 +69,16 @@ This is important for two reasons:
 
 Ambiguity in life is unavoidable, but ambiguity MUST be the exception.
 
-For example, it is reasonable to have a rule that states clearly when a human must be engaged,
+For example, it is reasonable to have a rule that states clearly when a human must be engaged
 but it is not reasonable to have a rule that states that a human must always be engaged
-in order to determine 
+in order to determine whether a human must be engaged.
 
 ### Human Involvement
 
-Humans should not need to engage with automation unless something has gone wrong
+Humans SHOULD NOT need to engage with automation unless something has gone wrong
 or a situation is sufficiently ambiguous to go beyond the known rules.
 
-When a situation does pass a defined ambiguity threshold,
+When a situation passes a defined ambiguity threshold
 our automation MUST automatically halt and request human intervention.
 
 ### Human Intervention
