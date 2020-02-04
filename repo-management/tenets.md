@@ -45,11 +45,10 @@ Requirements MUST be defined in written documentation.
 
 This is important for two reasons:
 
-1. We must be able to efficiently communicate our requirements to all maintainers.
-    The only way that we can do this reliably is by writing them down.
-1. Maintainers understanding our requirements is necessary but not sufficient.
-    We must also communicate those requirements to our users and contributors.
-    The only way that we can do this reliably is by writing them down.
+1. We MUST efficiently communicate our requirements to all maintainers.
+    The only way that we can do this is by writing them down.
+1. We MUST communicate our requirements to our users and contributors.
+    The only way that we can do this is by writing them down.
 1. We cannot enforce undefined requirements.
 
 ### Enforceable Rules
@@ -73,9 +72,8 @@ This is important for two reasons:
 
 Ambiguity in life is unavoidable, but ambiguity MUST be the exception.
 
-For example, it is reasonable to have a rule that states clearly when a human must be engaged
-but it is not reasonable to have a rule that states that a human must always be engaged
-in order to determine whether a human must be engaged.
+For example, it is reasonable to have a rule that states clearly when a human MUST be engaged
+but it is not reasonable to have a rule that states that a human MUST always be engaged.
 
 #### Enforced Rules
 
@@ -88,10 +86,10 @@ and SHOULD then be made into requirements.
 ### Human Involvement
 
 Humans SHOULD NOT need to engage with automation unless something has gone wrong
-or a situation is sufficiently ambiguous to go beyond the known rules.
+or a situation is too ambiguous for the automation to understand.
 
 When a situation passes a defined ambiguity threshold
-our automation MUST automatically halt and request human intervention.
+our automation MUST halt and request human intervention.
 
 ### Human Intervention
 
