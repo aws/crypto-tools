@@ -1,12 +1,5 @@
 # Repository Management Tenets and Goals
 
-## Definitions
-
-The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL
-NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and
-"OPTIONAL" in this document are to be interpreted as described in
-[RFC 2119](https://tools.ietf.org/html/rfc2119).
-
 ## What this document is
 
 The purpose of this document is to define our tenets and goals
@@ -17,7 +10,20 @@ that discuss how to achieve those goals.
 ## What this document is not
 
 This document does *not* discuss how we will achieve any of these goals.
+Implementation requirements and approaches are discussed in other documents.
 
+## Definitions
+
+The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL
+NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and
+"OPTIONAL" in this document are to be interpreted as described in
+[RFC 2119](https://tools.ietf.org/html/rfc2119).
+
+* **Requirement** : A requirement is something that MUST be true.
+    An example of this could be that secrets MUST NOT be committed in code.
+* **Preference** : A preference is something that SHOULD be true,
+    but that we will not force to be true.
+    An example of this could be design patterns or 
 
 ## Tenets
 
@@ -30,15 +36,12 @@ This document does *not* discuss how we will achieve any of these goals.
 
 ### Mechanisms
 
-If we care about something happening,
-it MUST NOT be dependent on the good intentions of humans.
-It MUST be enforceable without direct human action.
+Requirements MUST NOT be dependent on the good intentions of humans.
+They MUST be enforceable without direct human action.
 
 ### Written Rules
 
-If we care about managing something about a repository,
-we MUST write that thing down.
-Unwritten rules cannot be enforced by mechanisms.
+Requirements MUST be defined in written documentation.
 
 This is important for two reasons:
 
@@ -47,16 +50,19 @@ This is important for two reasons:
 1. Maintainers understanding our requirements is necessary but not sufficient.
     We must also communicate those requirements to our users and contributors.
     The only way that we can do this reliably is by writing them down.
+1. We cannot enforce undefined requirements.
 
 ### Enforceable Rules
 
-Any rules that we define MUST be machine enforceable.
-If a machine cannot enforce a rule then that rule is not sufficiently well defined.
+All requirements MUST be machine enforceable.
+If a machine cannot enforce a requirement
+then that requirement is not sufficiently well defined.
 
-For a rule to be enforceable, it MUST NOT be ambiguous.
+For a requirement to be enforceable, it MUST NOT be ambiguous.
 
-For example, if we want to require that unit tests complete
-then we MUST define branch protection rules that enforce that requirement.
+For example, if we want to require that unit tests pass,
+we can enforce that by defining branch protection rules
+that will block a merge if the unit tests have not passed.
 
 This is important for two reasons:
 
@@ -70,6 +76,14 @@ Ambiguity in life is unavoidable, but ambiguity MUST be the exception.
 For example, it is reasonable to have a rule that states clearly when a human must be engaged
 but it is not reasonable to have a rule that states that a human must always be engaged
 in order to determine whether a human must be engaged.
+
+#### Enforced Rules
+
+All requirements SHOULD be machine enforced.
+
+Any preferences that can be machine enforced
+SHOULD be machine enforced,
+and SHOULD then be made into requirements.
 
 ### Human Involvement
 
