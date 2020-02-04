@@ -32,7 +32,7 @@ NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and
 1. [Rules must be machine-enforceable.](#Enforceable Rules)
 1. [Minimal human involvement.](#Human Involvement)
 1. [Simple human intervention.](#Human Intervention)
-
+1. [Be Consistent](#Consistency)
 
 ### Mechanisms
 
@@ -98,3 +98,17 @@ our automation MUST automatically halt and request human intervention.
 Anyone with write access to a repository MUST be able to stop any automation
 if they think something has gone wrong, will go wrong,
 or that a situation is sufficiently ambiguous.
+
+### Consistency
+
+> Special cases aren't special enough to break the rules.
+>
+>  -- The Zen of Python
+
+Requirements and preferences SHOULD be consistent with relevant community norms.
+Where they diverge, that divergence MUST be to raise the bar
+and the reasons for that divergence MUST be clearly documented.
+
+Requirements and preferences MUST be consistent across projects
+governed by this document that share common characteristics
+(ex: language, build system, etc).
