@@ -23,7 +23,7 @@ NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and
     An example of this could be that secrets MUST NOT be committed in code.
 * **Preference** : A preference is something that SHOULD be true,
     but that we will not force to be true.
-    An example of this could be design patterns or 
+    An example of this could be design patterns or code formatting.
 
 ## Tenets
 
@@ -32,7 +32,7 @@ NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and
 1. [Rules must be machine-enforceable.](#Enforceable Rules)
 1. [Minimal human involvement.](#Human Involvement)
 1. [Simple human intervention.](#Human Intervention)
-1. [Be Consistent](#Consistency)
+1. [Be Consistent.](#Consistency)
 
 ### Mechanisms
 
