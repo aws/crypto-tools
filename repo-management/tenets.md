@@ -36,7 +36,7 @@ NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and
 
 ### Mechanisms
 
-Requirements MUST NOT be dependent on the good intentions of humans.
+Requirements MUST NOT depend on the good intentions of humans.
 They MUST be enforceable without direct human action.
 
 ### Written Rules
@@ -67,7 +67,7 @@ This is important for two reasons:
 
 1. If we have not defined our requirements well enough for a machine to enforce them,
     then we have not defined them well enough for all humans to understand them.
-1. If a rule requires human judgement to be applied,
+1. If a rule requires human judgment to be applied,
     then that rule is incomplete.
 
 Ambiguity in life is unavoidable, but ambiguity MUST be the exception.
