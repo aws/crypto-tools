@@ -43,13 +43,14 @@ They MUST be enforceable without direct human action.
 
 Requirements MUST be defined in written documentation.
 
-This is important for two reasons:
+This is important because:
 
 1. We MUST efficiently communicate our requirements to all maintainers.
     The only way that we can do this is by writing them down.
 1. We MUST communicate our requirements to our users and contributors.
     The only way that we can do this is by writing them down.
 1. We cannot enforce undefined requirements.
+1. We cannot know when/if/how requirements change if they are not recorded.
 
 ### Enforceable Rules
 
@@ -63,7 +64,7 @@ For example, if we want to require that unit tests pass,
 we can enforce that by defining branch protection rules
 that will block a merge if the unit tests have not passed.
 
-This is important for two reasons:
+This is important because:
 
 1. If we have not defined our requirements well enough for a machine to enforce them,
     then we have not defined them well enough for all humans to understand them.
