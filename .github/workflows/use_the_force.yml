@@ -17,7 +17,7 @@ jobs:
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
-        github_token: ${{ secrets.ACCESSTOKEN }}
+        github_token: ${{ secrets.dougch_s2n_force_push_token }}
         repository: dougch/gha-fork-sync
         branch: master
         force: true
