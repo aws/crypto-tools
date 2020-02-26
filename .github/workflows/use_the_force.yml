@@ -1,0 +1,23 @@
+
+name: force_push
+
+on:
+  push:
+    branches: 
+      - gha_trigger
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        persist-credentials: false
+        fetch-depth: 0
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.ACCESSTOKEN }}
+        repository: dougch/gha-fork-sync
+        branch: master
+        force: true
