@@ -6,6 +6,8 @@ Our libraries are designed to help you do cryptography right, even without speci
 Our client-side encryption libraries help you to protect your sensitive data
 at its source using secure cryptographic algorithms, envelope encryption, and signing.
 
+[Security issue notifications](./CONTRIBUTING.md#security-issue-notifications)
+
 ## AWS Encryption SDK
 The AWS Encryption SDK is a client-side encryption library
 designed to make it easy for you to encrypt and decrypt data using industry standards and best practices.
