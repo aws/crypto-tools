@@ -36,7 +36,7 @@ and `freeze-upstream-requirements-py37`
 `tox` environments.
 You can test the frozen test dependencies with the
 `test-upstream-requirements-py27`
-and `test-upstream-requirements-py27`
+and `test-upstream-requirements-py37`
 `tox` environments.
 The CI for each project requires these test environments to succeed.
 
