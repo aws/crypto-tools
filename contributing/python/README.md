@@ -47,6 +47,6 @@ if those environment variables are not set.
 We test this using the
 [`nocmk`](https://github.com/aws/aws-encryption-sdk-python/blob/97d9468375603a708d6fa9cb6703c3fc174501a6/tox.ini#L59-L69)
 `tox` test environment.
-**It is critical that these test environments unset all environment variables.
+**It is critical that this test environment unsets all environment variables.
 This ensures that the local tests work successfully
 in environments where the integration test environment variables have not been set.**
