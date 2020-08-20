@@ -33,11 +33,14 @@ and `test/upstream-requirements-py37.txt`.
 You can update the frozen test dependencies with the
 `freeze-upstream-requirements-py27`
 and `freeze-upstream-requirements-py37`
-`tox` environments.
+`tox` environments:
+`tox -e "freeze-upstream-requirements-py{2,3}7"`.
+This should be done periodically to keep dependencies recent.
 You can test the frozen test dependencies with the
 `test-upstream-requirements-py27`
 and `test-upstream-requirements-py37`
-`tox` environments.
+`tox` environments:
+`tox -e "test-upstream-requirements-py{2,3}7"`.
 The CI for each project requires these test environments to succeed.
 
 The integration tests for both of these libraries
