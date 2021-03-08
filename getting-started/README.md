@@ -5,6 +5,9 @@
 
 This file covers general concepts that apply to
 all AWS Crypto Tools projects.
+This and related guides should help you get started.
+For more in-depth guidance,
+see the [contributing guide](../contributing/README.md).
 
 ## Language Specifics
 
