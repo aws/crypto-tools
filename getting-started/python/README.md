@@ -77,7 +77,7 @@ and how to get started developing on these projects.
 ### Linux/MacOS
 
 For local development,
-we recommend using [`pyenv`][https://github.com/pyenv/pyenv].
+we recommend using [`pyenv`](https://github.com/pyenv/pyenv).
 If you want to quickly bootstrap a local development environment,
 run:
 
