@@ -117,3 +117,8 @@ exec "$SHELL"
 pipx install tox
 pipx inject tox tox-pyenv
 ```
+
+## `tox` tab completion
+Given the number of `tox` enviorments, it can be very helpful to setup tab completion. 
+For `zsh`, [here is a `tox` completion](https://github.com/zsh-users/zsh-completions/blob/master/src/_tox) compdef. 
+The whole `zsh-completions` repo can be installed, or you can just download the `_tox` file and add it to your `fpath` before running `autoload -Uz compinit && compinit -i`.
