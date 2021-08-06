@@ -94,7 +94,7 @@ echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile
 # https://github.com/pyenv/pyenv/wiki#suggested-build-environment
 
 # Install latest Python versions
-for MINOR_VERSION in 2.7 3.5 3.6 3.7 3.8;do
+for MINOR_VERSION in 2.7 3.5 3.6 3.7 3.8 3.9;do
   pyenv install $(pyenv install -l | grep "^  ${MINOR_VERSION}" | tail -1)
 done
 pyenv install 3.9.0
