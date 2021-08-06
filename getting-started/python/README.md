@@ -31,7 +31,9 @@ and how to get started developing on these projects.
     `THREADS` at a time.
     Adjust `THREADS` as appropriate for your environment.
     (ex: `tox -r -p 7`)
-
+  - `tox -e py38-accept,py38-examples,py38-integ,py38-local -p 3` :
+    Runs the listed environments (here, all of `py38`) with 3 workers.
+  
 - We use [`pytest`](https://docs.pytest.org/) to run our tests.
 - We use a variety of autoformatting and static analysis tools
   to ensure consistency among our projects.
@@ -92,9 +94,8 @@ echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile
 # https://github.com/pyenv/pyenv/wiki#suggested-build-environment
 
 # Install latest Python versions
-for MINOR_VERSION in 2.7 3.5 3.6 3.7 3.8;do
-  PYTHON_VERSION=$(pyenv install -l | grep "^  ${MINOR_VERSION}" | tail -1)
-  pyenv install ${PYTHON_VERSION}
+for MINOR_VERSION in 2.7 3.5 3.6 3.7 3.8 3.9;do
+  pyenv install $(pyenv install -l | grep "^  ${MINOR_VERSION}" | tail -1)
 done
 
 # set "local" pyenv version
@@ -115,3 +116,8 @@ exec "$SHELL"
 pipx install tox
 pipx inject tox tox-pyenv
 ```
+
+## `tox` tab completion
+Given the number of `tox` environments, it can be very helpful to setup tab completion. 
+For `zsh`, [here is a `tox` completion](https://github.com/zsh-users/zsh-completions/blob/master/src/_tox) compdef. 
+The whole `zsh-completions` repo can be installed, or you can just download the `_tox` file and add it to your `fpath` before running `autoload -Uz compinit && compinit -i`.
