@@ -32,7 +32,7 @@ and how to get started developing on these projects.
     Adjust `THREADS` as appropriate for your environment.
     (ex: `tox -r -p 7`)
   - `tox -e py38-accept,py38-examples,py38-integ,py38-local -p 3` :
-    Runs the listed enviorments (here, all of `py38`) with 3 workers.
+    Runs the listed environments (here, all of `py38`) with 3 workers.
   
 - We use [`pytest`](https://docs.pytest.org/) to run our tests.
 - We use a variety of autoformatting and static analysis tools
