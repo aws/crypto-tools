@@ -85,14 +85,16 @@ run:
 # "install" pyenv https://github.com/pyenv/pyenv#installation
 git clone https://github.com/pyenv/pyenv.git ~/.pyenv
 # bash
-echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile
-echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zprofile
+echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zproifle
+echo 'eval "$(pyenv init -)"' >> ~/.zprofile
+
 # Install Python build dependencies
 # (varies by OS)
 # https://github.com/pyenv/pyenv/wiki#suggested-build-environment
 
 # Install latest Python versions
-for MINOR_VERSION in 2.7 3.5 3.6 3.7 3.8;do
+for MINOR_VERSION in 3.6 3.7 3.8 3.9 3.10;do
   PYTHON_VERSION=$(pyenv install -l | grep "^  ${MINOR_VERSION}" | tail -1)
   pyenv install ${PYTHON_VERSION}
 done
