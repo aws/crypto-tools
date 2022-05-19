@@ -93,7 +93,7 @@ echo 'eval "$(pyenv init -)"' >> ~/.zprofile
 # https://github.com/pyenv/pyenv/wiki#suggested-build-environment
 
 # Install latest Python versions
-for MINOR_VERSION in 3.5 3.6 3.7 3.8 3.9 3.10;do
+for MINOR_VERSION in 3.6 3.7 3.8 3.9 3.10;do
   PYTHON_VERSION=$(pyenv install -l | grep "^  ${MINOR_VERSION}" | tail -1)
   pyenv install ${PYTHON_VERSION}
 done
