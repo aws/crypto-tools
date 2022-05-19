@@ -87,6 +87,7 @@ git clone https://github.com/pyenv/pyenv.git ~/.pyenv
 # bash
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zprofile
 echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zprofile
+echo 'eval "$(pyenv init -)"' >> ~/.zprofile
 # Install Python build dependencies
 # (varies by OS)
 # https://github.com/pyenv/pyenv/wiki#suggested-build-environment
